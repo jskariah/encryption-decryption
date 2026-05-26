@@ -66,13 +66,13 @@ Decrypts ciphertext directly from an input file and writes the resulting plainte
 Project-1-Ciphers/
 ├── ciphers.cpp
 ├── utils.h
-├── Makefile
 ├── dictionary.txt
 ├── english_quadgrams.txt
 ├── cryptogram.txt
 ├── plaintext.txt
 ├── suppr.txt
 ├── include/
+├── .gitignore
 └── README.md
 ```
 
@@ -82,7 +82,6 @@ Project-1-Ciphers/
 |---|---|
 | `ciphers.cpp` | Main implementation file containing encryption, decryption, scoring, and command logic |
 | `utils.h` | Utility/helper declarations used throughout the project |
-| `Makefile` | Compiles and builds the project |
 | `dictionary.txt` | Dictionary used for Caesar cipher decryption matching |
 | `english_quadgrams.txt` | Quadgram frequency data used for English scoring |
 | `cryptogram.txt` | Example encrypted text |
