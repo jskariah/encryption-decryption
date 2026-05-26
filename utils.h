@@ -7,17 +7,11 @@
 #include <string>
 #include <vector>
 
-// Don't modify this! It's a hack to let us directly test the main function,
-// while obeying the rule that a program can only have one main.
 #ifdef COMPILED_FOR_GTEST
 #define main ciphers_main
 #endif
 
 using namespace std;
-
-// This file is OUT OF SCOPE for you! Feel free to read, but you only have to
-// use these as directed in the project guide. You don't need to understand
-// or reimplement this file.
 
 class QuadgramScorer {
  private:
